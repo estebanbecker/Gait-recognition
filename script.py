@@ -73,3 +73,15 @@ for i in range(len(prediction)):
 
     
 print(good_count/len(test_labels))
+
+#With the training walk: ['nm-03', 'bg-01', 'nm-06', 'nm-04', 'cl-01']
+#and the point of view = 90 degrees
+#We obtain a precision of 0.95 
+
+#Now, using the same train set but with a point of view of 36 degrees we obtain a precision of 0.92
+
+#Finally with the type of walk: ['nm-04', 'nm-05', 'nm-02', 'cl-02']
+#and the point of view 90 degrees
+#We obtain a precision of 0.77
+
+#We can see that it is important to have the same type of walk in the train and test dataset to have good results
